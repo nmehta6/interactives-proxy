@@ -14,3 +14,6 @@ $ node server.js
 
 ## Configuring
 Add the path to your interactive from viewer in package.json. An example in located in the package.json of this project.
+
+## A note on HTTPS
+The BrowserSync static server that serves the interactive static files must run on HTTPS. This allows it to communicate with viewer properly.
