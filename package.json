@@ -13,5 +13,6 @@
     "connect-modrewrite": "^0.8.2",
     "request": "^2.64.0",
     "tough-cookie": "^2.0.0"
-  }
+  },
+  "interactiveUrl": "https://viewer.mediafly.com/interactives/interactive/9cf282320e6340ee8b830e5376d54531product184614/1441745710d55945/index.html"
 }
