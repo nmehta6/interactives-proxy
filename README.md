@@ -11,3 +11,6 @@ Enter the following in the terminal
 $ npm install
 $ node server.js
 ```
+
+## Configuring
+Add the path to your interactive from viewer in package.json. An example in located in the package.json of this project.
