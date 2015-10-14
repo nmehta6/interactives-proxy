@@ -1,18 +1,18 @@
 {
-  "name": "mediafly-interactives",
-  "version": "1.0.0",
+  "name": "mfly-interactive",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/proxy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.9.8",
     "connect-modrewrite": "^0.8.2",
-    "request": "^2.64.0",
-    "tough-cookie": "^2.0.0"
+    "yargs": "^3.27.0"
   },
-  "interactiveUrl": "https://viewer.mediafly.com/interactives/interactive/9cf282320e6340ee8b830e5376d54531product184614/1441745710d55945/index.html"
+  "bin": {
+    "mfly-interactive": "bin/index.js"
+  }
 }
